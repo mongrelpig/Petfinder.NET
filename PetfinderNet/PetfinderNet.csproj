@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.1</TargetFramework>
+    <Authors>John Price</Authors>
+    <Company></Company>
+    <Product>Petfinder .NET</Product>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageLicenseUrl>https://github.com/pricejc/Petfinder.NET/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/pricejc/Petfinder.NET</PackageProjectUrl>
+    <PackageTags>Petfinder</PackageTags>
+    <Description>This package provides access to the Petfinder.com API. It can be used to search for pets and shelters. Usage is limited by restrictions listed on the official developer documentation at https://www.petfinder.com/developers/api-docs.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+  </ItemGroup>
+
+</Project>

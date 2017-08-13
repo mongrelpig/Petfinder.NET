@@ -1,0 +1,37 @@
+﻿{
+    "country": {
+        "$t": "US"
+    },
+    "longitude": {
+        "$t": "-80.8458"
+    },
+    "name": {
+        "$t": "Example Shelter"
+    },
+    "phone": {},
+    "state": {
+        "$t": "NC"
+    },
+    "address2": {},
+    "email": {
+        "$t": "john.smith@example.com"
+    },
+    "city": {
+        "$t": "Charlotte"
+    },
+    "zip": {
+        "$t": "28201"
+    },
+    "fax": {
+        "$t": "123-456-7890"
+    },
+    "latitude": {
+        "$t": "35.2284"
+    },
+    "id": {
+        "$t": "NC691"
+    },
+    "address1": {
+        "$t": "1234 Hill Lane"
+    }
+}

@@ -56,8 +56,12 @@ namespace PetfinderNet.Converters
             var propertyName = genericType.GetTypeInfo().GetCustomAttribute<PetfinderResultAttribute>().PropertyName;
 
             //Deserialize the generic object
-            dynamic result = Convert.ChangeType(serializer.Deserialize(json.FindToken("petfinder", propertyName).CreateReader(), genericType), genericType);
-            response.Result = result;
+            var resultToken = json.FindToken("petfinder", propertyName);
+            if (resultToken != null)
+            {
+                dynamic result = Convert.ChangeType(serializer.Deserialize(resultToken.CreateReader(), genericType), genericType);
+                response.Result = result;
+            }
 
             return response;
         }

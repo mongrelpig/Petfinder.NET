@@ -1,0 +1,26 @@
+﻿{
+    "phone": {
+        "$t": "555-555-5555"
+    },
+    "state": {
+        "$t": "NC"
+    },
+    "address2": {
+        "$t": "Suite 100"
+    },
+    "email": {
+        "$t": "john.smith@example.com"
+    },
+    "city": {
+        "$t": "Charlotte"
+    },
+    "zip": {
+        "$t": "12345"
+    },
+    "fax": {
+        "$t": "111-111-1111"
+    },
+    "address1": {
+        "$t": "1234 Hill Lane"
+    }
+}

@@ -1,0 +1,16 @@
+﻿{
+    "timestamp": {
+        "$t": "2017-08-13T16:49:14Z"
+    },
+    "status": {
+        "message": {
+          "$t": "All is well"
+        },
+        "code": {
+            "$t": "100"
+        }
+    },
+    "version": {
+        "$t": "0.1"
+    }
+}

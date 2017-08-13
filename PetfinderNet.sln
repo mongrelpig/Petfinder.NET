@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetfinderNet", "PetfinderNet\PetfinderNet.csproj", "{6EEC3580-AACD-4921-8663-ADBF5CCD636C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetfinderNet.Full.Tests", "PetfinderNet.Full.Tests\PetfinderNet.Full.Tests.csproj", "{F71778A2-932C-48B4-B529-7ABB681F5B0E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetfinderNet.Tests", "PetfinderNet.Tests\PetfinderNet.Tests.csproj", "{FF66CD04-515D-4D7B-BC66-EA349F3A41E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{6EEC3580-AACD-4921-8663-ADBF5CCD636C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EEC3580-AACD-4921-8663-ADBF5CCD636C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EEC3580-AACD-4921-8663-ADBF5CCD636C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F71778A2-932C-48B4-B529-7ABB681F5B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F71778A2-932C-48B4-B529-7ABB681F5B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F71778A2-932C-48B4-B529-7ABB681F5B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F71778A2-932C-48B4-B529-7ABB681F5B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF66CD04-515D-4D7B-BC66-EA349F3A41E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF66CD04-515D-4D7B-BC66-EA349F3A41E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF66CD04-515D-4D7B-BC66-EA349F3A41E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF66CD04-515D-4D7B-BC66-EA349F3A41E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

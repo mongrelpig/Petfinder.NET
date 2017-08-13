@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using PetfinderNet.Models;
 using System.Collections.Generic;
+using System.Net;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -47,7 +48,7 @@ namespace PetfinderNet.Http
             queryString.Append($"key={_apiKey}");
             queryString.Append("&format=json");
             foreach (var param in parameters)
-                queryString.Append($"&{param.Key}={param.Value}");
+                queryString.Append($"&{param.Key}={WebUtility.UrlEncode(param.Value)}");
 
             var url = $"{BaseUrl}/{resource}?{queryString}";
 

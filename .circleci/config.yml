@@ -1,6 +1,7 @@
 version: 2
 jobs:
   build:
+    machine: true
     steps:
       - run:
           name: Add .NET Core package source
@@ -22,6 +23,7 @@ jobs:
           name: Build
           command: "dotnet build"
   test:
+    machine: true
     steps:
       - checkout
       - run:
